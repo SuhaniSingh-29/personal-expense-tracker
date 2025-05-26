@@ -1,0 +1,36 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(81, 254, 62);
+    font-weight: 600;
+}
+
+.nav-item{
+    color: rgb(81, 254, 62);
+}
+
+.btn {
+    margin-right: 30px;
+}
+
+.heading {
+    position: relative;
+    right: 450px;
+}
+
+.card {
+    box-shadow: 4px 5px 10px rgb(57, 52, 52);
+    background-color: rgb(191, 255, 249);
+}
+
+.first_card{
+    position: relative;
+    left: 550px;
+    bottom: 350px;
+}
+
+.second_card{
+    position: relative;
+    left: 180px;
+    bottom: 150px;
+}
+
