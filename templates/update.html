@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <div class="container my-3">
+        <h2>Update Expense</h2>
+        <form action='/update/{{allData.sno}}' method="POST">
+            <div class="mb-3">
+              <label for="amount" class="form-label">Amount</label>
+              <input type="text" class="form-control" name="amount" value="{{ allData.amount }}" id="amount" aria-describedby="emailHelp">
+            
+            </div>
+
+            <div class="mb-3">
+                <label for="category" class="form-label">Category</label>
+                <input type="text" class="form-control" name="category" value="{{ allData.category }}" id="category">
+              </div>
+            <div class="mb-3">
+              <label for="description" class="form-label">Description</label>
+              <input type="text" class="form-control" name="description" value="{{ allData.description }}" id="description">
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Update</button>
+          </form>
+    </div>
+</main>
+
+
+
+{% endblock %}
